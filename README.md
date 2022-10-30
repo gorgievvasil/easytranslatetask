@@ -22,6 +22,7 @@ Setup Laravel API server locally:
 - Validation is done on Laravel API Server side
 - API routes return JSON response which is easy to understand and parse
 - Result for each conversions are stored in the database, in the "conversions" table
+- Contains feautre tests for "/api/conversion" and "/api/auth/login" routes. Run command "php artisan test" to execute the tests
 
 Setup Laravel API Client (site for testing API requests)
 - Purpose of this website is to provide better user experience for testing API routes.
